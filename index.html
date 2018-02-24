@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multi HTML</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    </head>
+    <body>
+        <main>
+            <div id="textarea">
+                <div v-for="i in lines" class="line">
+                    <span class="label">{{ i.index }}</span>
+                    <input class="text">
+                    <var class="index">{{ i.index }}</var>
+                </div>
+            </div>
+            <iframe id="sandbox" sandbox="allow-scripts"></iframe>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

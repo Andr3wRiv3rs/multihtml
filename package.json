@@ -1,0 +1,17 @@
+{
+  "name": "multihtml",
+  "version": "0.1.1",
+  "description": "A Multiplayer HTML Editor.",
+  "main": "server.js",
+  "devDependencies": {
+    "express": "latest",
+    "stylus": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodejs server.js",
+    "autocompile": "nodejs autocompiler.js"
+  },
+  "author": "Andrew Rivers",
+  "license": "MIT"
+}
